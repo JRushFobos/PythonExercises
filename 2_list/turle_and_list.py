@@ -7,3 +7,7 @@ print('кортеж', tuple1)
 
 dict1 = dict(zip(a,b))
 print('словарь',dict1)
+
+
+tuple2 = list(zip(a,b))
+print('кортеж', tuple2)
