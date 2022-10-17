@@ -18,7 +18,7 @@ working_directory = r"С:\Downloads"
 for file in bucket_name.objects.filter(Prefix="production/tiles/"):
     if file.key.endswith(".png"):
 
-        local_file_name = os.path.join(working_directory, file.key.split("/")[2])
+        local_file_name = os.path.join(working_directory, file.key.split("//")[-1].replace("/", "_"))
 
         print(f"Downloading {file.key} to {local_file_name}")
         bucket_name.download_file(file.key, local_file_name)
