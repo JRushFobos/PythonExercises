@@ -9,5 +9,6 @@ def num_sum(number):
     except ValueError:
         print ('«Это не целое число».')
    
+   
 num = input('введи число и я сложу его цифры')
 num_sum(num)
