@@ -14,3 +14,4 @@ class Child(Parent):
 x = Child('Hello and welcome')
 
 x.printmessage()
+#Hello and welcome
