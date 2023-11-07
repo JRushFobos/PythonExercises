@@ -9,7 +9,6 @@ files = {
     'Varieties': 'varietyId',
     'Crops': 'cropId',
     'Fields': 'fieldId',
-    'GrowthStages': 'growthstagesId',
     'Users': 'email',
     'Products': 'productId',
 }
